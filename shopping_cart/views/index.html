@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body ng-app="app">
+<div ng-controller="appCtrl">
+
+
+
+
+
+
+    <title-dir></title-dir>
+    <nav-bar></nav-bar>
+
+    <div>
+    <div ng-controller="ShoppingCartCtrl">
+        This is a part where we can access values fom controller.
+
+    </div>
+    </div>
+
+
+</div>
+
+
+<script src="/node_modules/angular/angular.js"></script>
+
+<script src="/js/app.js"></script>
+<script src="/js/controllers/appctrl.js"></script>
+<script src="/js/controllers/ShoppingCartCtrl.js"></script>
+
+<script src="/js/directives/titleDir.js"></script>
+<script src="/js/directives/navBar.js"></script>
+<script src="/js/services/itemtype.js"></script>
+
+
+</body>
+</html>
